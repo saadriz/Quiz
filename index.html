@@ -19,20 +19,23 @@
 	</head>
 	<body>
 		<div id='header'>
-			<div id='header-text'>The Future Quiz</div>
+			<div id='header-text'>The Sci-Fi Quiz</div>
 		</div>
 		<div id='quiz-box'>
-			<div id='question'>
-				<p>Q1. Who invented psychohistory?</p>
+			<div>
+				<p id ='question'>Question here</p>
 			</div>
 			<div id='answers'>
 				<ul class='four-answers'>
-					<li class='individual-ans'>Ebling Mis</li>
-					<li class='individual-ans'>Hari Seldon</li>
-					<li class='individual-ans'>Salvador Hardin</li>
-					<li class='individual-ans'>Hober Mallow</li>
+					<li class='individual-ans' id='answer1'>Ebling Mis</li>
+					<li class='individual-ans' id='answer2'>Hari Seldon</li>
+					<li class='individual-ans' id='answer3'>Salvador Hardin</li>
+					<li class='individual-ans' id='answer4'>Hober Mallow</li>
 				</ul>
+			
 				<div id='next'>Next
+				</div>
+				<div id='current-score'>Score: <p id="score"></p>
 				</div>
 			</div>
 			
@@ -44,6 +47,17 @@
 			</div>
 			<div id='actual-score'>
 				<p>50</p>
+			</div>
+			<div class='start-button' id ="reset">
+				<p>Reset</p>
+			</div>
+		</div>
+		<div id = 'intro-box'>
+			<div id='intro-text'>
+				<p>Welcome to the quiz</p>
+			</div>
+			<div class='start-button'>
+				<p>Start</p>
 			</div>
 		</div>
 		
